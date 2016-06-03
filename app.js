@@ -31,7 +31,7 @@ stream.on('tweet', function (tweet) {
     github.issues.create({
       user: process.env.GITHUBUSER,
       repo: process.env.GITHUBREPO,
-      title: 'Twissue from ' + tweet.user.name,
+      title: 'Twissue from ' + tweet.user.name + '(' + tweet.user.screen_name +')',
       body: tweet.text
     }, function(err, res) {
       var issueUrl = res.html_url;
