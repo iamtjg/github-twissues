@@ -1,5 +1,5 @@
 {
-  "name": "GitHub Twissues",
+  "name": "github-twissues",
   "version": "0.1.0",
   "author": "iamtjg",
   "description": "Watch a Twitter hashtag to record as issues in GithHub",
