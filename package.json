@@ -1,0 +1,24 @@
+{
+  "name": "GitHub Twissues",
+  "version": "0.1.0",
+  "author": "iamtjg",
+  "description": "Watch a Twitter hashtag to record as issues in GithHub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamtjg/github-twissues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "twitter",
+    "issues"
+  ],
+  "dependencies" : {
+    "twit": "^2.2.4",
+    "github": "^1.1.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
